@@ -5,7 +5,10 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watch",
+    "test:unit": "jest src",
+    "test:integration": "jest test"
   },
   "keywords": [],
   "author": "",
